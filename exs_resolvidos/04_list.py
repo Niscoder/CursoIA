@@ -1,3 +1,5 @@
+#https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true
+
 N = int(input())
 
 mylist = []
