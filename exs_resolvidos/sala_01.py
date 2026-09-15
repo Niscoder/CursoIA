@@ -1,3 +1,11 @@
+# Faça um código em Python onde o usuário deve informar a quantidade de alunos que ele irá cadastrar,
+# depois crie um loop para adicionar todos os alunos, devendo informar o nome e em seguida a nota do
+# aluno. O sistema deve processar as informações e retornar uma lista de dicionários ou tuplas com todos
+# os alunos. Depois retorne uma lista de dicionários ou tuplas contendo os alunos que foram aprovados
+# (nota 60 ou maior), outra de alunos que ficaram de recuperação (nota entre 40 e baixo de 60),
+# e a última de alunos que reprovaram. Todas as listas devem estar ordenadas em ordem de chamada e deve
+# conter o número da chamada, nome e nota.
+
 n = input()
 
 array_alunos = []
