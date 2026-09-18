@@ -1,0 +1,5 @@
+Python
+Office Viewer
+Jupyter
+indent-rainbow
+Error Lens

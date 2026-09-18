@@ -1,9 +1,3 @@
-# Crie um sistema para cadastrar alunos de uma turma, deve conter nas informação
-# dos alunos o nome e as notas de cada disciplina. Aluno deve ser uma classe para
-# salvar as informações, e deverá ter um método para calcular o coeficiente do aluno,
-# e outro para printar as informações do aluno com o nome, o nome de cada
-# disciplina com a nota do aluno, e o coeficiente.
-
 class Turma:
     def __init__(self, nome, disciplinas, alunos) -> None:
         self.nome = nome
@@ -44,16 +38,23 @@ class Aluno:
     def printar_aluno(self):
         print(f"Aluno: {self.nome}, Notas: {self.disciplinas}, Coeficiente: {self.coeficiente}")
 
+def printar_info_turma(turma):
+    print(f"Turma: {turma.nome}, Total de alunos: {len(turma.alunos)}")
 
 
-turma = Turma("A1", ["mat", "port", "prog"], ["André", "Maria", "Carlos"])
-alunos = turma.alunos
-notas = {"André": {"mat": 100, "port": 89, "prog": 75},
-         "Maria": {"mat": 80, "port": 78, "prog": 96}}
+if __name__ == "__main__":
 
-turma.atribuir_notas(notas)
+    turma = Turma("A1", ["mat", "port", "prog"], ["André", "Maria", "Carlos"])
+    alunos = turma.alunos
+    notas = {"André": {"mat": 100, "port": 89, "prog": 75},
+            "Maria": {"mat": 80, "port": 78, "prog": 96}}
 
-for aluno in turma.alunos:
-    aluno.calcular_coeficiente()
-    aluno.printar_aluno()
+    turma.atribuir_notas(notas)
+    printar_info_turma(turma)
 
+
+    for aluno in turma.alunos:
+        aluno.calcular_coeficiente()
+        aluno.printar_aluno()
+
+    print(turma)
