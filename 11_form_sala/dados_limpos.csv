@@ -1,0 +1,41 @@
+idade,universidade,curso,periodo,ling_prog,area_atuacao,art_banda,filme_serie,comida_fav,hobby,atv_fisica,altura
+23,unifil,ciencia da computacao,7,javascript,dev,pop,fantasia,lanche,jogos,True,175
+24,puc,ads,5,javascript,ciencia_dados/ia,rap,fantasia,japonesa,artes,False,168
+20,unifil,engenharia de software,2,php,gestao/diretoria,pop,fantasia,massa,artes,False,166
+30,unifil,ciencia da computacao,4,java,ciencia_dados/ia,rock,ficção científica,massa,esporte,True,174
+21,universidade positivo,engenharia de software,7,python,ciencia_dados/ia,rock,drama,massa,jogos,False,180
+21,utfpr,engenharia de software,6,java,ciencia_dados/ia,eletronica,fantasia,japonesa,jogos,True,180
+19,uel,ciencia de dados e IA,4,python,ciencia_dados/ia,pop,drama,outros,jogos,True,185
+19,uel,ciencia de dados e IA,2,python,n/d,pop,ficção científica,outros,jogos,True,177
+21,unifil,ciencia da computacao,6,java,ciencia_dados/ia,pop,fantasia,lanche,jogos,True,180
+21,utfpr,engenharia de software,8,javascript,n/d,outros,fantasia,massa,jogos,False,175
+25,unicesumar,ads,4,c,dev,pop,fantasia,japonesa,jogos,False,181
+22,utfpr,sistemas de informacao,2,python,gestao/diretoria,rap,fantasia,churrasco,artes,True,186
+19,unifil,engenharia de software,6,java,dev,pop,ficção científica,japonesa,artes,True,178
+23,utfpr,sistemas de informacao,3,python,ciencia_dados/ia,rock,ficção científica,massa,jogos,False,165
+23,puc,ads,6,python,ciencia_dados/ia,outros,drama,massa,outros,True,169
+22,uel,ciencia de dados e IA,2,python,ciencia_dados/ia,rock,drama,lanche,esporte,True,169
+20,utfpr,sistemas de informacao,4,python,ciencia_dados/ia,rap,comédia,japonesa,outros,False,162
+21,unicesumar,ads,4,python,ciencia_dados/ia,rock,drama,massa,outros,True,185
+24,unifil,engenharia de software,4,java,dev,rock,ficção científica,massa,artes,False,175
+20,unifil,ciencia da computacao,6,java,ciencia_dados/ia,outros,outros,outros,esporte,True,175
+19,utfpr,sistemas de informacao,4,python,ciencia_dados/ia,rock,outros,lanche,artes,True,180
+20,utfpr,sistemas de informacao,4,python,ciencia_dados/ia,rock,outros,lanche,jogos,False,174
+20,universidade positivo,engenharia de software,6,javascript,ciencia_dados/ia,eletronica,drama,outros,esporte,True,178
+21,unisenai,engenharia de software,4,java,ciencia_dados/ia,rap,drama,japonesa,jogos,True,173
+21,unifil,engenharia de software,5,java,ciencia_dados/ia,rap,drama,japonesa,outros,True,173
+23,unifil,engenharia de software,5,java,ciencia_dados/ia,rock,comédia,churrasco,artes,True,178
+21,unisenai,engenharia de software,6,java,dev,rock,fantasia,lanche,jogos,False,161
+21,unifil,engenharia de software,6,java,gestao/diretoria,eletronica,comédia,churrasco,jogos,True,180
+20,unifil,engenharia de software,4,java,dev,rock,fantasia,massa,jogos,True,186
+18,utfpr,sistemas de informacao,2,python,dev,rock,drama,massa,jogos,True,168
+19,universidade positivo,ads,2,python,n/d,rock,drama,lanche,jogos,False,177
+18,unifil,ads,5,portugol,gestao/diretoria,rap,outros,massa,artes,True,150
+21,unifil,engenharia de software,5,java,ciencia_dados/ia,rock,drama,churrasco,artes,False,165
+20,unifil,engenharia de software,6,java,ciencia_dados/ia,outros,drama,churrasco,jogos,True,198
+21,unifil,engenharia de software,6,java,n/d,rap,ficção científica,japonesa,artes,True,169
+22,unifil,ciencia da computacao,6,java,ciencia_dados/ia,pop,fantasia,outros,artes,True,163
+23,unicesumar,ads,2,c,gestao/diretoria,pop,comédia,japonesa,esporte,False,173
+24,unifil,engenharia de software,5,java,ciencia_dados/ia,rock,drama,japonesa,outros,False,166
+19,unifil,engenharia de software,6,java,ciencia_dados/ia,rap,fantasia,churrasco,esporte,True,178
+32,utfpr,mestrado em eng elétrica,4,python,gestao/diretoria,rock,fantasia,japonesa,artes,True,182
