@@ -8,6 +8,33 @@ create table cliente (
 	check(CHAR_LENGTH(cpf) = 11)
 );
 
+create table cliente (
+	cpf varchar(11) primary key,
+	nome varchar(100) not null,
+	carteira numeric(10,2) not null default 0,
+	email varchar(150) not null unique,
+	
+	check(carteira >= 0),
+	check(CHAR_LENGTH(cpf) = 11)
+);
+
+
+create table produto (
+	id integer generated always as identity primary key,
+	descricao varchar(150) not null,
+	preco numeric(10,2) not null,
+	
+	check(preco > 0)
+);
+
+create table pedido (
+	id integer generated always as identity primary key,
+	cliente_cpf varchar(11) not null references cliente(cpf),
+	produto_id integer not null references produto(id),
+	qtd integer not null,
+	
+	check(qtd > 0)
+);
 
 insert into cliente (cpf, nome, email)
 values ('55555555500', 'Andre', 'mail1@gmail.com'),
