@@ -4,8 +4,11 @@ services:
     container_name: sql-postgres
     restart: unless-stopped
 
-    env_file:
-      - .env
+    environment:
+      - POSTGRES_USER=sql_user
+      - POSTGRES_PASSWORD=sql_password
+      - POSTGRES_DB=sql_bootcamp
+  
 
     ports:
-      - "5432:5432"
+      - "5433:5432"
