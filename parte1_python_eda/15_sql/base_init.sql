@@ -8,17 +8,6 @@ create table cliente (
 	check(CHAR_LENGTH(cpf) = 11)
 );
 
-create table cliente (
-	cpf varchar(11) primary key,
-	nome varchar(100) not null,
-	carteira numeric(10,2) not null default 0,
-	email varchar(150) not null unique,
-	
-	check(carteira >= 0),
-	check(CHAR_LENGTH(cpf) = 11)
-);
-
-
 create table produto (
 	id integer generated always as identity primary key,
 	descricao varchar(150) not null,
