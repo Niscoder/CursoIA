@@ -1,0 +1,20 @@
+
+# Prepara ambiente virtual com Pytorch, dependências e CUDA instalado
+
+.\setup.ps1 -VenvName .iaenv -Recreate -Torch cu132
+
+# Ativar ambiente virtual
+
+.iaenv/Scripts/Activate
+
+# Verificar instalação do CUDA (pode não funcionar se driver estiver desatualizado)
+
+python verify-cuda.py
+
+# Caso não deseja usar CUDA, rode
+
+.\setup.ps1 -VenvName .iaenv
+
+# Vai instalar Pytorch na CPU por padrão
+
+
