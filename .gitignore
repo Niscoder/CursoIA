@@ -1,3 +1,12 @@
 /.venv
 __pycache__/
+*ipynb_checkpoints/
+*data/
 *.DS_Store
+*.png
+*.jpg
+*.jpeg
+*.heic
+*.webp
+*.avif
+docker-compose.yaml
