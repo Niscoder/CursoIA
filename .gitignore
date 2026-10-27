@@ -1,10 +1,13 @@
 /.venv
 __pycache__/
+/.setup_env
 *ipynb_checkpoints/
 *data/
+
 *.DS_Store
 *.png
 *.jpg
+*.JPG
 *.jpeg
 *.heic
 *.webp
